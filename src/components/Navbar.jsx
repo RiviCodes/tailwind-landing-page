@@ -9,6 +9,7 @@ export default function Navbar() {
         <div className="pt-2">
           <img src="images/logo.svg" alt="" />
         </div>
+
         {/* Menu Items */}
         <div className="hidden md:flex space-x-6">
           <a href="#" className="hover:text-darkGrayishBlue">
@@ -27,6 +28,14 @@ export default function Navbar() {
             Community
           </a>
         </div>
+
+        {/* Button */}
+        <a
+          href="#"
+          className="hidden md:block p-3 px-6 pt-2 text-white bg-brightRed rounded-full baseline hover:bg-brightRedLight"
+        >
+          Get Started
+        </a>
       </div>
     </nav>
   );
