@@ -26,7 +26,7 @@ export default function Testimonials() {
           </div>
 
           {/* Testimonial #2 */}
-          <div className="flex flex-col items-center p-6 mt-16 space-y-6 rounded-lg bg-veryLightGray md:m-auto md:w-1/3">
+          <div className="flex flex-col items-center p-6 mt-16 space-y-6 rounded-lg bg-veryLightGray md:m-0 md:w-1/3">
             <img src="images/avatar-ali.png" className="w-16 -mt-14" alt="" />
             <h5 className="text-lg font-bold">Ali Bravo</h5>
             <p className="text-sm text-darkGrayishBlue">
@@ -37,7 +37,7 @@ export default function Testimonials() {
           </div>
 
           {/* Testimonial #3 */}
-          <div className="flex flex-col items-center p-6 mt-16 space-y-6 rounded-lg bg-veryLightGray md:m-auto md:w-1/3">
+          <div className="flex flex-col items-center p-6 mt-16 space-y-6 rounded-lg bg-veryLightGray md:m-0 md:w-1/3">
             <img
               src="images/avatar-richard.png"
               className="w-16 -mt-14"
